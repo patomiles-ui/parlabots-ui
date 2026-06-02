@@ -1,0 +1,215 @@
+/* =========================
+   PARLABOTS UI CUSTOM CSS
+========================= */
+
+html,body,#mainapp,.v-application,.v-application--wrap,
+button,input,textarea,select,.btn,*{
+  font-family:"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,Arial,sans-serif!important;
+}
+
+
+.chat-list,#chat-user-list{overflow-x:hidden!important}#chat-user-list>div{padding:0 10px!important}
+#chat-user-list a.btn.btn-white.btn-block.text-left.media{width:100%!important;max-width:100%!important;box-sizing:border-box!important;margin:3px 0!important;padding:6px 8px!important;border-radius:12px!important;transition:background-color .15s ease,box-shadow .15s ease,border-color .15s ease!important}
+#chat-user-list .img-profile,#chat-user-list .img-profile img{width:46px!important;height:46px!important;min-width:46px!important}
+#chat-user-list .media-body{padding:1px 0!important}#chat-user-list .media-body .m-0{margin-bottom:1px!important}
+#chat-user-list a.btn.btn-white.btn-block.text-left.media .media-body>.m-0>span.d-inline-block.text-truncate.w-100{font-weight:550!important;font-size:13.5px!important;line-height:1.2!important}
+#chat-user-list span.d-inline-block.text-truncate.small.text-secondary{font-size:12px!important;line-height:1.35!important;padding-right:18px!important}
+#chat-user-list span.d-inline-block.text-truncate.small.bold{font-weight:500!important}
+#chat-user-list small.m-0.small.float-right.mt-1{font-size:11px!important;margin-top:0!important;min-width:48px!important;display:inline-block!important;text-align:right!important}
+.chat-list,div.chat-list.col-12.col-md-3,div.chat-list.col-12.col-md-3.border-right{background:transparent!important;background-image:none!important}
+
+.el-tooltip.bg-warning{margin:0!important;padding:4px 0!important;line-height:1.2!important;border-radius:0!important}
+.animate__slideInRight .message-text,.animate__slideInLeft .message-text,.message :is(.message-attach,.message-attach.message-attach-big){border-radius:12px!important}
+.message .message-text,.message:has(.message-attach audio),.message:has(.message-attach-big audio){position:relative!important}
+.message .message-text pre,.message .message-text .d-flex.align-items-center{padding-right:26px!important}
+.pb-msg-time{position:absolute;right:6px;bottom:-1px;font-size:11px;opacity:.75;pointer-events:none;user-select:none}
+.message:has(.message-attach audio) .pb-msg-time,.message:has(.message-attach-big audio) .pb-msg-time{right:12px!important;bottom:6px!important;z-index:2!important}
+.message :is(.message-attach,.message-attach.message-attach-big){overflow:hidden!important}
+
+.h7.bold.text-center.my-3{display:flex;align-items:center;justify-content:center;font-weight:600!important;letter-spacing:.2px;font-size:11.5px;margin:12px 0}
+.h7.bold.text-center.my-3::before,.h7.bold.text-center.my-3::after{content:"";flex:1;height:1px;margin:0 10px}
+
+#rete.node-editor{background-image:linear-gradient(to right,rgba(0,0,0,.025) 1px,transparent 1px),linear-gradient(to bottom,rgba(0,0,0,.025) 1px,transparent 1px);background-size:20px 20px}
+
+#chat-user-list i.fa-circle-check,span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"]){color:transparent!important;background:none!important;border:0!important;box-shadow:none!important;position:relative!important;display:inline-block!important;vertical-align:middle!important}
+#chat-user-list i.fa-circle-check{width:22px!important;height:16px!important}
+#chat-user-list i.fa-circle-check::before,#chat-user-list span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after,div.d-flex.justify-content-end.w-100.my-1 span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after{position:absolute!important;left:0!important;top:0!important;font-family:Arial,sans-serif!important;font-size:14px!important;font-weight:700!important;line-height:12px!important;letter-spacing:-2px!important;transform:translateY(1px)!important}
+#chat-user-list i.fa-circle-check::before{content:"✓"!important}
+#chat-user-list i.fa-circle-check.text-secondary::before,#chat-user-list i.fa-circle-check:is(.text-primary,.text-info)::before,#chat-user-list span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after,div.d-flex.justify-content-end.w-100.my-1 span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after{content:"✓✓"!important}
+#chat-user-list span.el-avatar.el-avatar--circle img[src*="view_photo.png"],div.d-flex.justify-content-end.w-100.my-1 span.el-avatar.el-avatar--circle img[src*="view_photo.png"]{opacity:0!important}
+#chat-user-list span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"]){width:22px!important;height:16px!important}
+div.d-flex.justify-content-end.w-100.my-1 span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"]){width:24px!important;height:16px!important}
+
+.bg-white.rounded.px-4.pt-2{border-radius:14px!important}
+h5.m-0{font-size:16px!important;font-weight:600!important}
+h5 .badge.badge-pill.badge-light,h5 span.badge-light{font-size:12px!important;font-weight:500!important}
+
+.s_card.z-depth-1 .title.bold{font-size:15px!important;font-weight:600!important}
+.divContact .media-body{line-height:1.3!important}.divContact .media-body p{margin-bottom:2px!important}
+.divContact .d-flex.align-items-center.justify-content-between.pb-1{padding-bottom:6px!important}
+.divContact .w-100.text-left.pb-2.pt-3.border-top.mb-2{padding-top:8px!important;padding-bottom:6px!important}
+.divContact .media-body p.m-0.p-0.d-inline-block.text-truncate.w-100{font-size:14px!important;font-weight:500!important;line-height:1.5!important}
+.divContact .media-body p.m-0.p-0.text-secondary{font-size:12px!important;font-weight:400!important;line-height:1.25!important;margin-top:2px!important}
+.divContact .border-top>p{font-weight:600!important;font-size:13px!important;margin-bottom:5px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.divContact span.text-secondary,.s_card.z-depth-1 .divContact b{font-size:12px!important;font-weight:400!important}
+.s_card.z-depth-1 .d-flex.flex-column.justify-content-center.align-items-center{transition:background .2s ease;border-radius:10px}
+.el-collapse-item__header,.el-collapse-item__header span,.d-flex.justify-content-between.align-items-center.py-2.item,.d-flex.justify-content-between.align-items-center.py-2.item span,.d-flex.justify-content-between.align-items-center.py-2.item div{font-size:13.5px!important;line-height:1.2!important}
+.d-flex.justify-content-between.align-items-center.py-2.item{font-weight:500!important}.pt-3 .d-flex.p-1>div:first-child span{font-weight:600!important}
+.el-collapse-item__content .py-2.item{padding:7px 10px 7px 14px!important;margin:0!important;min-height:unset!important;height:auto!important;line-height:1.6!important;border-radius:6px!important}
+.el-collapse-item__content{padding-top:4px!important;padding-bottom:4px!important}
+.d-flex.justify-content-between.align-items-center.py-2.item>div:last-child,.d-flex.justify-content-between.align-items-center.py-2.item>span:last-child{font-size:12px!important;font-weight:400!important}
+.d-flex.justify-content-between.align-items-center.py-2.item.active{border-radius:8px!important}
+.d-flex.justify-content-between.align-items-center.py-2.item.active,.d-flex.justify-content-between.align-items-center.py-2.item.active span,.d-flex.justify-content-between.align-items-center.py-2.item.active div,.d-flex.justify-content-between.align-items-center.py-2.item.active .d-flex.align-items-center{font-weight:600!important;color:#2B84EA!important}
+.img-profile,.img-profile-big{box-sizing:content-box}
+.img-profile-big{width:100px!important;height:100px!important}
+.d-flex.justify-content-between.mb-3.align-items-center.px-2{padding-bottom:11px;margin-bottom:3px!important}
+.clearfix.my-message,.clearfix.other-message{margin-bottom:3px!important}
+.clearfix.other-message .message.my-2,.clearfix.my-message .message.my-2{margin-top:2px!important;margin-bottom:2px!important}
+
+/* LIGHT */
+html:not(.dark) body,html:not(.dark) #mainapp,html:not(.dark) .maincontainer,html:not(.dark) .maincontainer.pt-3,html:not(.dark) .v-application,html:not(.dark) .v-application--wrap{background:#fff!important}
+html:not(.dark) body{color:#1f2937!important}
+html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media{background:#fff!important;border:1px solid rgba(0,0,0,.08)!important;box-shadow:0 1px 2px rgba(0,0,0,.06)!important}
+html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media:hover,html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media.btn-light:hover{background:#F0F1EF!important;box-shadow:none!important}
+html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media.btn-light{background:#fff!important;border:1px solid #6B7280!important;box-shadow:0 2px 4px rgba(0,0,0,.06)!important}
+html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media:has(span.bold){background:#F0F3F3!important;border-color:#E5E7EB!important;box-shadow:0 1px 2px rgba(0,0,0,.05)!important}
+html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media:has(span.bold):hover{background:#E9EEEE!important;box-shadow:none!important}
+html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media .media-body>.m-0>span.d-inline-block.text-truncate.w-100{color:#494D62!important}
+html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media:has(span.bold) .media-body .m-0>span.d-inline-block.text-truncate.w-100,html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media .media-body>.m-0>span.d-inline-block.text-truncate.w-100:is(.font-weight-bold,.text-dark,strong),html:not(.dark) #chat-user-list a.btn.btn-white.btn-block.text-left.media .media-body>.m-0>span.d-inline-block.text-truncate.bold{color:#2E303A!important;font-weight:600!important}
+html:not(.dark) #chat-user-list span.d-inline-block.text-truncate.small.text-secondary,html:not(.dark) #chat-user-list small.m-0.small.float-right.mt-1{color:#6B7280!important}
+html:not(.dark) #chat-user-list span.d-inline-block.text-truncate.small.bold{color:#2e343d!important}
+
+html.dark #chat-user-list a.btn.btn-white.btn-block.text-left.media:hover{
+  background:#2c3c57!important;
+}
+
+/* NO LEÍDO (modo oscuro) */
+html.dark #chat-user-list a.btn.btn-white.btn-block.text-left.media:has(span.bold){
+  background:#1A2436!important;
+  border-color:rgba(255,255,255,.08)!important;
+  box-shadow:0 1px 2px rgba(0,0,0,.18)!important;
+}
+
+html.dark #chat-user-list a.btn.btn-white.btn-block.text-left.media:has(span.bold):hover{
+  background:#202C42!important;
+  box-shadow:none!important;
+}
+
+.el-tooltip.bg-warning{
+  background:#2B84EA!important;
+  color:#fff!important;
+  border:1px solid rgba(0,0,0,.45)!important;
+}
+html:not(.dark) .el-tooltip.bg-warning i{color:#fff!important}
+html:not(.dark) .animate__slideInRight .message-text,html:not(.dark) .animate__slideInLeft .message-text{color:#111!important;border:1px solid rgba(0,0,0,.14)!important}
+html.dark .animate__slideInRight .message-text,
+html.dark .animate__slideInLeft .message-text{
+  border:1px solid rgba(255,255,255,.08)!important;
+}
+html.dark .message-text.mx-auto.audio-transcription .m-0.text-left{color:#fff!important}
+html.dark .message-text.mx-auto.audio-transcription .text-secondary{color:rgba(255,255,255,.78)!important}
+html:not(.dark) .animate__slideInRight .message-text{
+  background:#E8F0FE!important
+}
+html:not(.dark) .animate__slideInLeft .message-text{background:#F5F5F5!important;box-shadow:none!important}
+
+
+.message-text a,
+.message-text a u{
+  color:#2B84EA!important;
+}
+
+html.dark .message-attach.message-attach-big a span,html.dark .message-attach.message-attach-big a i{color:#2B84EA!important}
+
+html:not(.dark) .animate__slideInRight .message-text pre,
+html:not(.dark) .animate__slideInLeft .message-text pre{
+  color:#111!important
+}
+
+html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3{background:#f8fafc!important;border-left:1px solid rgba(0,0,0,.08)!important}
+html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3 :where(.el-collapse-item__header,.el-collapse-item__header:hover,.el-collapse-item__header:focus){background:#f8fafc!important}
+html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3 .el-checkbox__inner{background:#fff!important;border-color:rgba(0,0,0,.35)!important}
+html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3 .el-checkbox__input.is-checked .el-checkbox__inner{background:#2B84EA!important;border-color:#2B84EA!important}
+html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3 .el-checkbox__input.is-checked .el-checkbox__inner::after{border-color:#fff!important}
+html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3 button.btn.btn-outline-secondary{color:#2B84EA!important;border-color:rgba(43,132,234,.55)!important;background:#fff!important}
+html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3 button.btn.btn-outline-secondary:hover,html:not(.dark) .h-device.border.border-top-0.border-right-0.border-bottom-0.py-2.col-12.col-md-3 button.btn.btn-outline-secondary:focus{color:#2B84EA!important;background:rgba(43,132,234,.10)!important;border-color:rgba(43,132,234,.70)!important}
+
+html:not(.dark) nav#mysidebar .new-nav-list a:hover{background:rgba(0,0,0,.05)!important}
+html:not(.dark) nav#mysidebar .new-nav-list a:focus-visible{background:rgba(0,0,0,.06)!important;outline:none!important;box-shadow:0 0 0 2px rgba(43,132,234,.20)!important}
+html:not(.dark) nav#mysidebar .new-nav-list :is(li.active>a,a.active,a.router-link-active,a.nuxt-link-active,a[aria-current="page"]){background:rgba(0,0,0,.06)!important}
+html:not(.dark) nav#mysidebar .new-nav-list :is(li.active>a:hover,a.active:hover,a.router-link-active:hover,a.nuxt-link-active:hover,a[aria-current="page"]:hover){background:rgba(0,0,0,.08)!important}
+
+html:not(.dark) .message:not(.right) .pb-msg-time{color:#555!important;opacity:.7!important}
+html:not(.dark) .message.right .pb-msg-time{color:#4a5563!important;opacity:.9!important}
+html:not(.dark) .h7.bold.text-center.my-3{color:#2f3640!important}
+html:not(.dark) .h7.bold.text-center.my-3::before,html:not(.dark) .h7.bold.text-center.my-3::after{background:#939dab!important;opacity:.6!important}
+html.dark .h7.bold.text-center.my-3::before,html.dark .h7.bold.text-center.my-3::after{background:rgba(255,255,255,.18)!important;opacity:1!important}
+html:not(.dark) #rete.node-editor{background-image:linear-gradient(to right,rgba(0,0,0,.025) 1px,transparent 1px),linear-gradient(to bottom,rgba(0,0,0,.025) 1px,transparent 1px)!important}
+html:not(.dark) #chat-user-list i.fa-circle-check::before,html:not(.dark) #chat-user-list i.fa-circle-check.text-secondary::before{color:#9ca3af!important}
+html:not(.dark) #chat-user-list i.fa-circle-check:is(.text-primary,.text-info)::before,html:not(.dark) #chat-user-list span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after,html:not(.dark) div.d-flex.justify-content-end.w-100.my-1 span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after{color:#1f8cff!important}
+html.dark #chat-user-list i.fa-circle-check::before,html.dark #chat-user-list i.fa-circle-check.text-secondary::before{color:#94a3b8!important}
+html.dark #chat-user-list i.fa-circle-check:is(.text-primary,.text-info)::before,html.dark #chat-user-list span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after,html.dark div.d-flex.justify-content-end.w-100.my-1 span.el-avatar.el-avatar--circle:has(img[src*="view_photo.png"])::after{color:#60a5fa!important}
+
+html:not(.dark) .bg-white.rounded.px-4.pt-2{border:1px solid #e5e7eb!important;box-shadow:0 1px 2px rgba(0,0,0,.04)!important}
+html:not(.dark) h5.m-0{color:#2E303A!important}
+html:not(.dark) h5 .badge.badge-pill.badge-light,html:not(.dark) h5 span.badge-light,html:not(.dark) .s_card.z-depth-1 .header .badge.badge-pill.badge-light{color:#6b7280!important;background:#f3f4f6!important;border:none!important}
+html:not(.dark) .s_card.z-depth-1{border:1px solid #e5e7eb!important;box-shadow:0 2px 6px rgba(0,0,0,.06)!important}
+html.dark .s_card.z-depth-1{
+  border:1px solid rgba(255,255,255,.06)!important;
+  box-shadow:0 2px 6px rgba(0,0,0,.28)!important;
+  background:#1a2438!important;
+}
+
+html.dark .s_card.z-depth-1 .header{border-bottom:1px solid rgba(255,255,255,.06)!important}html.dark .s_card.z-depth-1 .header[style*="background-color"]{background:unset!important}html.dark .s_card.z-depth-1 .body{background:#1a2438!important}
+
+html:not(.dark) .s_card.z-depth-1 .btn.btn-white.divContact{background:#fff!important}
+html:not(.dark) .s_card.z-depth-1 .divContact{box-shadow:0 2px 6px rgba(0,0,0,.18)!important}
+html:not(.dark) .divContact .media-body p.m-0.p-0.d-inline-block.text-truncate.w-100{color:#2E303A!important}
+html:not(.dark) .divContact .media-body p.m-0.p-0.text-secondary,html:not(.dark) .divContact span.text-secondary,html:not(.dark) .el-collapse-item__header,html:not(.dark) .el-collapse-item__header span,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item>div:last-child,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item>span:last-child,html:not(.dark) .text-secondary,html:not(.dark) .s_card.z-depth-1 .divContact b{color:#6b7280!important}
+html:not(.dark) .divContact .border-top>p{color:#616368!important}
+html:not(.dark) .s_card.z-depth-1 .d-flex.flex-column.justify-content-center.align-items-center:hover{background:#F1F2F4!important;cursor:pointer}
+html.dark .s_card.z-depth-1 .d-flex.flex-column.justify-content-center.align-items-center:hover{
+  background:#2c3c57!important;
+}
+html:not(.dark) div[id^="el-collapse-head-"].el-collapse-item__header,html:not(.dark) div[id^="el-collapse-head-"].el-collapse-item__header span,html:not(.dark) div[id^="el-collapse-head-"].el-collapse-item__header i{color:#6b7685!important;opacity:1!important}
+html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active),html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active) span,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active) div,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active) .d-flex.align-items-center,html:not(.dark) .pt-3 .d-flex.p-1>div:first-child span{color:#374151!important}
+html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item.active{background:rgba(0,0,0,.04)!important}
+//
+
+//
+html:not(.dark) .pt-3 .d-flex.p-1:not(:last-child),html:not(.dark) .d-flex.justify-content-between.mb-3.align-items-center.px-2{border-bottom:1px solid #e9ecf0!important}
+.clearfix.my-message .message-text .d-flex.align-items-center i.fal.fa-file,.clearfix.my-message .message-text .d-flex.align-items-center a{color:#2B84EA!important}
+
+.message-text a:hover,.message-attach.message-attach-big a:hover{text-decoration:underline!important;opacity:.9}html:not(.dark) .message-text a:hover,html:not(.dark) .message-attach.message-attach-big a:hover{color:#1d6fdc!important}
+
+.message-attach.message-attach-big a i{
+  margin-right:6px;
+}
+
+html:not(.dark) .clearfix.my-message .message-text .d-flex.align-items-center i.fal.fa-file{text-shadow:0 0 .5px #374151}
+//
+
+html:not(.dark) .img-profile,
+html:not(.dark) .img-profile-big{
+  box-shadow:0 0 0 2px #fff!important;
+}
+
+/* Inbox - light mode */
+html:not(.dark) #chat-user-list .img-profile,
+html:not(.dark) #chat-user-list .img-profile-big{
+  box-shadow:0 0 0 2px #fff!important;
+}
+
+/* Inbox - dark mode */
+html.dark #chat-user-list .img-profile,
+html.dark #chat-user-list .img-profile-big{
+  box-shadow:0 0 0 2px #2B3648!important;
+}
+
+html.dark .animate__slideInRight .message-text{
+  background:#273d61!important;
+  color:#fff!important;
+}
+
+
+
