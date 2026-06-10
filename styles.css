@@ -2,10 +2,6 @@
    PARLABOTS UI CUSTOM CSS
 ========================= */
 
-html,body,#mainapp,.v-application,.v-application--wrap,
-button,input,textarea,select,.btn,*{
-  font-family:"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,Arial,sans-serif!important;
-}
 
 
 .chat-list,#chat-user-list{overflow-x:hidden!important}#chat-user-list>div{padding:0 10px!important}
@@ -83,7 +79,7 @@ html.dark #chat-user-list a.btn.btn-white.btn-block.text-left.media:hover{
   background:#2c3c57!important;
 }
 
-/* NO LEÍDO (modo oscuro) */
+/* NO LEÍDO (dark) */
 html.dark #chat-user-list a.btn.btn-white.btn-block.text-left.media:has(span.bold){
   background:#1A2436!important;
   border-color:rgba(255,255,255,.08)!important;
@@ -160,11 +156,7 @@ html.dark .s_card.z-depth-1{
   background:#1a2438!important;
 }
 
-html.dark .s_card.z-depth-1 .header{border-bottom:1px solid rgba(255,255,255,.06)!important}html.dark .s_card.z-depth-1 .header[style*="background-color"]{background:unset!important}html.dark .s_card.z-depth-1 .body{background:#1a2438!important}
 
-html:not(.dark) .s_card.z-depth-1 .btn.btn-white.divContact{background:#fff!important}
-html:not(.dark) .s_card.z-depth-1 .divContact{box-shadow:0 2px 6px rgba(0,0,0,.18)!important}
-html:not(.dark) .divContact .media-body p.m-0.p-0.d-inline-block.text-truncate.w-100{color:#2E303A!important}
 html:not(.dark) .divContact .media-body p.m-0.p-0.text-secondary,html:not(.dark) .divContact span.text-secondary,html:not(.dark) .el-collapse-item__header,html:not(.dark) .el-collapse-item__header span,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item>div:last-child,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item>span:last-child,html:not(.dark) .text-secondary,html:not(.dark) .s_card.z-depth-1 .divContact b{color:#6b7280!important}
 html:not(.dark) .divContact .border-top>p{color:#616368!important}
 html:not(.dark) .s_card.z-depth-1 .d-flex.flex-column.justify-content-center.align-items-center:hover{background:#F1F2F4!important;cursor:pointer}
@@ -174,7 +166,9 @@ html.dark .s_card.z-depth-1 .d-flex.flex-column.justify-content-center.align-ite
 html:not(.dark) div[id^="el-collapse-head-"].el-collapse-item__header,html:not(.dark) div[id^="el-collapse-head-"].el-collapse-item__header span,html:not(.dark) div[id^="el-collapse-head-"].el-collapse-item__header i{color:#6b7685!important;opacity:1!important}
 html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active),html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active) span,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active) div,html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item:not(.active) .d-flex.align-items-center,html:not(.dark) .pt-3 .d-flex.p-1>div:first-child span{color:#374151!important}
 html:not(.dark) .d-flex.justify-content-between.align-items-center.py-2.item.active{background:rgba(0,0,0,.04)!important}
+
 //
+
 
 //
 html:not(.dark) .pt-3 .d-flex.p-1:not(:last-child),html:not(.dark) .d-flex.justify-content-between.mb-3.align-items-center.px-2{border-bottom:1px solid #e9ecf0!important}
@@ -186,19 +180,12 @@ html:not(.dark) .pt-3 .d-flex.p-1:not(:last-child),html:not(.dark) .d-flex.justi
   margin-right:6px;
 }
 
-html:not(.dark) .clearfix.my-message .message-text .d-flex.align-items-center i.fal.fa-file{text-shadow:0 0 .5px #374151}
-//
 
 html:not(.dark) .img-profile,
 html:not(.dark) .img-profile-big{
   box-shadow:0 0 0 2px #fff!important;
 }
 
-/* Inbox - light mode */
-html:not(.dark) #chat-user-list .img-profile,
-html:not(.dark) #chat-user-list .img-profile-big{
-  box-shadow:0 0 0 2px #fff!important;
-}
 
 /* Inbox - dark mode */
 html.dark #chat-user-list .img-profile,
@@ -210,6 +197,48 @@ html.dark .animate__slideInRight .message-text{
   background:#273d61!important;
   color:#fff!important;
 }
+
+
+
+html.dark .message-attach.message-attach-big .div_flow_content .my-0,
+html.dark .message-attach.message-attach-big .div_flow_content .textarea_c,
+html.dark .message-attach.message-attach-big .div_btts{
+  background:rgba(255,255,255,.08)!important;
+  color:#fff!important;
+  border-color:rgba(255,255,255,.08)!important;
+}
+
+
+html.dark .message-attach.message-attach-big .p_add_btt{
+  background:#35507d!important;
+  color:#fff!important;
+  border:1px solid rgba(255,255,255,.10)!important;
+}
+
+
+/* PDF */
+.message-text .d-flex.align-items-center{
+  max-width:100%!important;
+  min-width:0!important;
+}
+
+.message-text .d-flex.align-items-center a{
+  white-space:normal!important;
+  word-break:break-word!important;
+  overflow-wrap:anywhere!important;
+  display:inline!important;
+}
+
+
+html.dark .d-flex.justify-content-between.align-items-center.py-2.item.active{
+  background:transparent!important;
+}
+
+html.dark a{
+  color:#E5E7EB!important;
+}
+
+
 
 
 
